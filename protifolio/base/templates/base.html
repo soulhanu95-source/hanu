@@ -1,0 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hanumesh Portfolio</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head> -->
+{% extends 'main.html' %}
+{% block content %}
+<body>
+  <!-- Navbar -->
+  <!-- <nav class="navbar">
+    <a href="#home" class="logo">Hanumesh</a>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#objective">Objective</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#extra">Extra</a>
+    </div>
+  </nav> -->
+
+  <!-- Home -->
+  <section id="home" class="section">
+    <h1>Hi, I'm Hanumesh 👋</h1>
+    <p>Python/Django Developer with 3+ years of experience</p>
+    <p>📧 <a href="mailto:valagondahanumesh2001@gmail.com">valagondahanumesh2001@gmail.com</a></p>
+    <p>📞 7285939974</p>
+  </section>
+
+  <!-- Career Objective -->
+  <section id="objective" class="section">
+    <h2>Career Objective</h2>
+    <p>
+      Experienced, dedicated and detail-oriented Python Developer with 3+ years of experience 
+      in developing automation solutions, web applications, and REST APIs. Adept at building 
+      scalable frameworks, integrating CI/CD tools, and delivering high-quality software through Agile practices.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Work Experience</h2>
+    <h3>Software Developer – BMS Info Solutions Pvt Ltd (June 2022 – Aug 2025)</h3>
+    <ul>
+      <li>Built REST APIs using Flask & Django.</li>
+      <li>Developed backend services, database schemas, and optimized queries.</li>
+      <li>Implemented JWT authentication and role-based access.</li>
+      <li>Automated tasks with schedulers and cron jobs.</li>
+      <li>Configured CI/CD with Jenkins and GitHub Actions.</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <h3>DocHouse – Healthcare Real Estate Portal</h3>
+    <p><strong>Duration:</strong> July 2023 – Aug 2025</p>
+    <ul>
+      <li>Created REST APIs in Flask for property listings.</li>
+      <li>Integrated Google Maps API for location-based results.</li>
+      <li>Implemented JWT authentication & user management.</li>
+    </ul>
+
+    <h3>MeetSpace – Smart Office Booking Platform</h3>
+    <p><strong>Duration:</strong> June 2022 – June 2023</p>
+    <ul>
+      <li>Built backend logic for calendar-based availability & pricing.</li>
+      <li>Developed token-based authentication with role-based access.</li>
+      <li>Generated booking trend reports with Python scripts.</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills & Abilities</h2>
+    <ul>
+      <li>Python, Flask, Django, FastAPI</li>
+      <li>REST API development & testing (Postman, PyTest)</li>
+      <li>SQL (MySQL, PostgreSQL)</li>
+      <li>CI/CD (Jenkins, GitHub Actions)</li>
+      <li>Git, Agile, JSON/CSV/XML, Pandas</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>Academic Qualification</h2>
+    <ul>
+      <li>Bachelor’s Degree – M S Degree College, Gooty</li>
+      <li>12th – Sri Sai Junior College, Gooty</li>
+      <li>10th – Z P High School, Lakshumpalli</li>
+    </ul>
+  </section>
+
+  <!-- Extra -->
+  <section id="extra" class="section">
+    <h2>Extra Activities</h2>
+    <ul>
+      <li>Conducted team meetings and tracked status.</li>
+      <li>Organized fun activities to improve teamwork.</li>
+      <li>Provided knowledge transfer (KT) to new joiners.</li>
+    </ul>
+
+    <h2>Declaration</h2>
+    <p>
+      I hereby declare that the above information is true to the best of my knowledge.
+    </p>
+    <p><strong>Place:</strong> Bengaluru<br><strong>Name:</strong> Hanumesh V</p>
+  </section>
+</body>
+{% endblock content %}
